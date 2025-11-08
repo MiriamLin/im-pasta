@@ -187,7 +187,7 @@ extension MyServiceIdExt on MyServiceItemId {
       MyServiceItemId.sos => MyServiceItem(
           title: '緊急求助',
           description: '提供緊急求助服務',
-          icon: Assets.svg.iconZoo24.svg(),
+          icon: Assets.svg.sos.svg(),
           category: MyServiceCategory.cityLife,
           destinationUrl: '',
         ),
