@@ -189,7 +189,7 @@ extension MyServiceIdExt on MyServiceItemId {
           description: '安心餐廳資訊',
           icon: Assets.png.iconSafeRestaurant.image(),
           category: MyServiceCategory.cityLife,
-          destinationUrl: '',
+          destinationUrl: 'https://im-pasta-service-git-main-miriams-projects-09dff18e.vercel.app?_vercel_share=bueTJbDwcSa8xTBpO6tLn8OFNX2OCotb',
         ),
     };
   }
