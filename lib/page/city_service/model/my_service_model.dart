@@ -29,6 +29,7 @@ enum MyServiceItemId {
   library,
   locationSearch,
   zoo,
+  safeRestaurant,
   ;
 }
 
@@ -181,6 +182,13 @@ extension MyServiceIdExt on MyServiceItemId {
           description: '動物園區資訊導覽、線上地圖',
           icon: Assets.svg.iconZoo24.svg(),
           category: MyServiceCategory.explore,
+          destinationUrl: '',
+        ),
+    MyServiceItemId.safeRestaurant => MyServiceItem(
+          title: '安心餐廳',
+          description: '安心餐廳資訊',
+          icon: Assets.png.iconSafeRestaurant.image(),
+          category: MyServiceCategory.cityLife,
           destinationUrl: '',
         ),
     };
