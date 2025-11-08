@@ -184,7 +184,7 @@ extension MyServiceIdExt on MyServiceItemId {
           category: MyServiceCategory.explore,
           destinationUrl: '',
         ),
-    MyServiceItemId.safeRestaurant => MyServiceItem(
+      MyServiceItemId.safeRestaurant => MyServiceItem(
           title: '安心餐廳',
           description: '安心餐廳資訊',
           icon: Assets.png.iconSafeRestaurant.image(),
